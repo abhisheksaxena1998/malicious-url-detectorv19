@@ -42,8 +42,7 @@ def saveuserfeedbackform(request):
 import warnings
 warnings.warn = warn
 import warnings
-import pandas as pd
-import numpy as np
+
 from sklearn.externals import joblib
 from lxml import html
 from json import dump, loads
@@ -54,10 +53,6 @@ from dateutil import parser as dateparser
 from time import sleep
 from django.http import HttpResponse
 from django.shortcuts import render
-import os
-import pandas as pd
-import numpy as np
-import pickle
 from sklearn.externals import joblib
 
 import whois
